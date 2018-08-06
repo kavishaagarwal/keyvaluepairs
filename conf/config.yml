@@ -1,0 +1,10 @@
+server:
+  type: default
+  maxThreads: 2048
+  adminContextPath: /admin
+  applicationConnectors:
+    - port: 8080
+      type: http
+  adminConnectors:
+    - port: 8090
+      type: http
