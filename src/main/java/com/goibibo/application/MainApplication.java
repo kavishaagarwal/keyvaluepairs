@@ -14,5 +14,6 @@ public class MainApplication extends Application<ApplicationConfig> {
     public void run(ApplicationConfig applicationConfig, Environment environment) throws Exception {
         final KeyValueResource keyValueResource = new KeyValueResource();
         environment.jersey().register(keyValueResource);
+        //my comment
     }
 }
