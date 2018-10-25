@@ -7,4 +7,5 @@ import lombok.Data;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ApplicationConfig extends Configuration {
+	//my latest branch
 }
